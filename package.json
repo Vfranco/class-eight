@@ -1,0 +1,23 @@
+{
+  "name": "calculator-web",
+  "version": "1.0.0",
+  "description": "Calculadora",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx webpack --watch"
+  },
+  "keywords": [
+    "Calculadora"
+  ],
+  "author": "VfrancoV",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^13.1.0",
+    "webpack": "^5.74.0"
+  },
+  "dependencies": {
+    "webpack-cli": "^4.10.0"
+  }
+}
